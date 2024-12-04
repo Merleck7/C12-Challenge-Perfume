@@ -17,13 +17,13 @@ main{
 
 article{
     width: 560px;
-    height: 415px;
+    height: 414px;
     background-color: white;
     border-radius: 10px;
     display: flex;
 }
 .left {
-    width: 280px;
+    width: 325px;
     overflow: hidden;
 }
 
