@@ -17,19 +17,24 @@ main{
 
 article{
     width:540px;
-    height: 403px;
+    height: 400px;
     background-color: white;
     border-radius: 10px;
     display: flex;
 }
+.left {
+    width: 270px;
+    overflow: hidden;
+}
 
 .left img{
-    width: 270px;
+    width: 300px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 .right{
+    width: 270px;
     display: flex;
     flex-direction: column;
     padding: 15px;
