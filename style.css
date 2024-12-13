@@ -102,3 +102,20 @@ button{
 button i{
     padding-right: 10px;
 }
+@media (max-width: 800px){
+    article{
+        display: block;
+        width: auto;
+        overflow: hidden;
+        height: auto;
+    }
+    .left{
+        height: 230px;
+        position: relative;
+    }
+    .left img{
+        width: 100%;
+        position: absolute;
+        bottom: -106px;
+    }
+}
